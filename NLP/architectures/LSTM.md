@@ -7,7 +7,7 @@ tags:
 [Blog](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 ## Long Short Term Memory networks
 Это особый случай [[RNN]], спобный учиться long-term dependecies by design.
-LSTM похоже на конвейр - она передаёт cell state $C$, который движется через все состояния блока, как долгострочная память.
+LSTM похоже на конвейр - она передаёт cell state $C$, который движется через все состояния блока, как долгосрочная память.
 
 ![[Pasted image 20230320212429.png]]
 ![[Pasted image 20230320212436.png]]

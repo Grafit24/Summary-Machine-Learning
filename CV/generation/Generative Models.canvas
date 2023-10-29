@@ -1,8 +1,10 @@
 {
 	"nodes":[
 		{"id":"2f22d1382b40274f","type":"text","text":"# [[GAN]]\n- не используют Probability Density Function\n- Среднее качество\n- mode collapse\n\t- Выдает одно и тоже (какой-то срений результат для датасета)\n- Трудно учить","x":-460,"y":-160,"width":500,"height":300,"color":"5"},
-		{"id":"5ef69f2953fe2578","x":-1160,"y":-160,"width":500,"height":440,"color":"4","type":"text","text":" # [[VAE]]\n - используют Probability Density Function(мы экстерполируем нашу исходную выборку на всё генеративную совокупность)\n- Может страдать от posterior collapse\n\t- Выход encoder очень шумный \n\t- Decoder игнорирует вход и генерирует грубые приближения типичных примеров\n- Быстрый инференс\n- Низкое качество"},
-		{"id":"7904b70ac9d36caa","type":"text","text":"# [[Diffusion Models]]\n- Лучшее качество\n- Долгий инференс\n- Легче учить, чем [[GAN]]\n","x":240,"y":-160,"width":460,"height":300,"color":"6"}
+		{"id":"5ef69f2953fe2578","type":"text","text":" # [[VAE]]\n - используют Probability Density Function(мы экстерполируем нашу исходную выборку на всё генеративную совокупность)\n- Может страдать от posterior collapse\n\t- Выход encoder очень шумный \n\t- Decoder игнорирует вход и генерирует грубые приближения типичных примеров\n- Быстрый инференс\n- Низкое качество","x":-1160,"y":-160,"width":500,"height":440,"color":"4"},
+		{"id":"7904b70ac9d36caa","type":"text","text":"# [[Diffusion Models]]\n- Лучшее качество\n- Долгий инференс\n- Легче учить, чем [[GAN]]\n","x":240,"y":-160,"width":460,"height":300,"color":"6"},
+		{"id":"705ec366be5ba413","type":"file","file":"attachments/Generative Models.png","x":-860,"y":-880,"width":720,"height":498},
+		{"id":"f2afcf1bb92bf27d","type":"file","file":"attachments/cv_gen_problems.gif","x":70,"y":-831,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"197b029019200965","fromNode":"5ef69f2953fe2578","fromSide":"right","toNode":"2f22d1382b40274f","toSide":"left"},
