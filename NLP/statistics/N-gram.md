@@ -1,8 +1,16 @@
+---
+tags:
+  - NLP
+  - language-modeling
+  - n-gram
+---
 [Источник](https://lena-voita.github.io/nlp_course/language_modeling.html#evaluation)
 #NLP #language-modeling
 ## N-gram
 Один из способов построение LM. Вычисляет вероятности используя [[Word Embeddings|global corpus statistics]], например просто считая кол-во вхождений в корпус текста.
-**Марковское св-во**. Вероятность слова зависит только от фиксированного кол-ва предыдущих слов.
+
+>**Марковское свойство**. Вероятность слова зависит только от фиксированного кол-ва предыдущих слов.
+
 То есть для n-gram model:
 $$P(y_t|y_1, ..., y_{t-1})=P(y_t|y_{t-n+1}, ..., y_{t-1})=\frac{N(y_1, y_2, ..., y_t)}{N(y_1, y_2, ..., y_{t-1})}$$
 - $n=3$ - trigram model $P(y_t|y_{t-n+1}, ..., y_{t-1})=P(y_t|y_{t-2}, t_{t-1})$
@@ -14,11 +22,7 @@ $$P(y_t|y_1, ..., y_{t-1})=P(y_t|y_{t-n+1}, ..., y_{t-1})=\frac{N(y_1, y_2, ...,
 	- ![[Pasted image 20230311192941.png|300]]
 - **Linear Interpolation**. $\sum \lambda_i = 1$. Это гиперпараметры которые мы подбираем с помощью [[Cross Validation]].
 	- ![[Pasted image 20230311193003.png|300]]
-- **Kneser-Ney**. Чтобы решить проблему Back-off в виде того что он может дать неоправданную частоту юниграме такой как San Francisco, где самого выражение встречается часто, но Francisco само по себе встречается редко.
-	- ![[Pasted image 20230321210501.png|200]]
-	- ![[Pasted image 20230321210707.png]]
-	- [Подробнее](https://lena-voita.github.io/nlp_course/language_modeling.html#papers_smoothings)
-
+- ![[Kneser-Ney Smoothing]]
 ### Решение проблемы 0 числителя
 - **Laplace smoothing** (aka add-one smoothing). Притворимся, что мы видели все n-grams хотя бы $\delta$ раз. 
 	- ![[Pasted image 20230311193539.png|300]]
