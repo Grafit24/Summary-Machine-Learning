@@ -15,9 +15,9 @@
 
 ## Model Architecture
 Attentions:
-- [[Self-Attention]]
-- [[Masked Self-Attention]]
-- [[Multi-Head Attention]]
+![[Self-Attention]]
+![[Masked Self-Attention]]
+![[Multi-Head Attention]]
 
 ![[transformer_architecture.png]]
 $N=6$ обычно.
