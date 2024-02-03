@@ -1,5 +1,10 @@
+---
+tags:
+  - NLP
+  - embeddings
+  - prediction-based-method
+---
 [Источник](https://lena-voita.github.io/nlp_course/word_embeddings.html)
-#NLP, #embeddings, #prediction-based-method
 ## Идея
 В отличии от #count-based-method , которые реализуют идею того, что нам требуется "вставить информацию о конткесте в вектор слова (word vector)" довольно прямолинейно (буквально вставляют туда статистику копуса текста), word2vec решает эту проблему иначе, мы обучаем ML модель так, чтобы она научилась предсказывать контекст слова по контексту, то есть:
 

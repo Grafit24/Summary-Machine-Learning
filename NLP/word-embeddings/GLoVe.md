@@ -1,4 +1,10 @@
-#NLP #prediction-based-method #count-based-method #embeddings 
+---
+tags:
+  - NLP
+  - embeddings
+  - count-based-method
+  - prediction-based-method
+---
 ## Идея
 ![[Pasted image 20230909213737.png]]
 

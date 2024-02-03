@@ -1,10 +1,10 @@
 ---
 tags:
   - ML
-  - NLP
   - classification
   - classic
 ---
+# Naïve Bayes Text Classifier
 ## Кратко
 ![[Pasted image 20230911223333.png]]
 [[Naïve Bayes]] это [[Generative Models|генеративная модель]].

@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Image Segmentation",
+      "path": "CV/image-segmentation/Image Segmentation.md"
+    },
+    {
+      "type": "file",
+      "title": "Generative Models",
+      "path": "CV/generation/Generative Models.md"
+    }
+  ]
+}

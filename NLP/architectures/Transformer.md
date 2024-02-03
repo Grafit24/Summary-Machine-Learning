@@ -39,8 +39,8 @@ $$FFN(x) = \max(0, xW_1+b_1)W_2+b_2.$$
 
 Просто напоминание: позволяет бороться с затуханием градиентов.
 
-### [[Layer Normalization]]
-Независимо нормализует представление вектора каждого примера в батче. Как и [[Batch Normalization]] ускоряет сходимость и стабильность модели.
+### Layer Normalization
+![[Layer Normalization]]
 
 ### Positional Encoding
 Так, как трансформер не имеет рекурсии или конволюций он не может определить последовательность входных токенов, поэтому для передачи этой информации существуют позиционные эмбденги, которые мы складываем с эмбеденгами слов получая - слова на позиции $pos$. 
@@ -53,3 +53,17 @@ $$\mbox{PE}_{pos, 2i+1}=\cos(pos/10000^{2i/d_{model}})$$
 - $pos$ - позиция токена
 - $i$ - элемент вектора эмбеденга
 Каждое измерение полученного эмбеденга соответсвует синусойде и длины волн образуют геометрическую прогрессию от $2\pi$ до $10000\times 2\pi$.
+
+## FFNs as Key-Value Memories
+[Source](https://lena-voita.github.io/nlp_course/transfer_learning.html#word_embeddings)
+A token representation evolves from the input token embedding to the final layer prediction. Residual connections, [[Attention|attention]] and [[Transformer#Feed-forward blocks|feed-forward blocks]] update the original representation by **adding new information**. This sequence of evolving representations for the same token is called the **residual stream**.
+
+![[Pasted image 20240119001850.png]]
+
+>Note 
+>- while **attention** layers allow exchanging information **across tokens**, 
+>- **FFNs** operate within the **same residual stream**.
+
+In [this paper](https://arxiv.org/pdf/2012.14913.pdf), the authors propose to view feed-forward layers in transformer-based language models as key-value memories. In this view, the columns of the first FFN layer encode textual concepts and the rows of the second FFN layer encode distributions over vocabulary.
+
+![[Pasted image 20240119001922.png]]

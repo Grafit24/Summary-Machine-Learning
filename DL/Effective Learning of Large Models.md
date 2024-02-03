@@ -3,7 +3,7 @@
 Модели имеющие >1b параметров и такие модели, которые от увелечения размера получают прирост качества.
 
 LLMs:
-- [[GPT 3 🔄|GPT 3]]/3.5/4 - [OpenAI](https://openai.com/research/language-models-are-few-shot-learners)
+- [[GPT|GPT 3/3.5/4]] - [OpenAI](https://openai.com/research/language-models-are-few-shot-learners)
 - [[T5]] - [Arxiv](https://arxiv.org/abs/1910.10683)
 - BLOOM
 - [[BART]] - [Arxiv](https://arxiv.org/abs/1910.13461)
