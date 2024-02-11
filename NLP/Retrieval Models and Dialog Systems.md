@@ -1,3 +1,9 @@
+---
+tags:
+  - NLP
+  - --draft
+  - chatbot
+---
 #NLP 
 
 - Алгоритм

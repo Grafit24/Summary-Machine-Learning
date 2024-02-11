@@ -77,7 +77,7 @@ LLMs:
 Также можно использовать другой тип float: [bf16/tf16](https://blogs.nvidia.com/blog/2020/05/14/tensorfloat-32-precision-format/)
 ![[Pasted image 20230417214102.png|500]]
 
-Quantization. 8 bit.
+[[Quantization]]. 8 bit.
 - LLM.int8 [Arxiv](https://arxiv.org/abs/2208.07339)
 	- outliers значения (слишком большие) это наша проблема при квантизации 
 	- ![[Pasted image 20230418203319.png]]

@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Domain Adaptaion.md",
+                "file": "DL/acceleration-and-compression/Cascading.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8196d35812707d7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DL/acceleration-and-compression/Quantization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a75e42e50202835e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DL/acceleration-and-compression/Pruning.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,11 +59,14 @@
             "id": "8074984a76ba7b01",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "NLP/architectures/Transformer.md",
-                "mode": "source",
-                "source": false
+                "file": "DL/Accelaration & Compression.canvas",
+                "viewState": {
+                  "x": -231.1763966591705,
+                  "y": 74.76643295288073,
+                  "zoom": -1.0583246266797395
+                }
               }
             }
           },
@@ -55,7 +82,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -84,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "tag:compress",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/Domain Adaptaion.md",
+                "file": "DL/Accelaration & Compression.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/Domain Adaptaion.md",
+                "file": "DL/Accelaration & Compression.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,45 +221,47 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "98d4df0541d207e2",
+  "active": "8074984a76ba7b01",
   "lastOpenFiles": [
-    "attachments/Pasted image 20240203001903.png",
-    "attachments/Pasted image 20240203001712.png",
-    "attachments/Pasted image 20240202235733.png",
-    "attachments/Pasted image 20240201235848.png",
-    "attachments/Pasted image 20240201235805.png",
-    "attachments/Pasted image 20240201235143.png",
-    "attachments/Pasted image 20240201234814.png",
-    "attachments/Pasted image 20240201234045.png",
-    "attachments/Pasted image 20240201233913.png",
-    "attachments/Pasted image 20240201233340.png",
-    "attachments/Pasted image 20240201233302.png",
-    "NLP/Word Embeddings.md",
-    "NLP/Transfer Learning.md",
-    "NLP/Tokenization.md",
-    "NLP/Text Data Augmentation.md",
-    "NLP/metrics/BLEU.md",
-    "NLP/metrics/Perplexity.md",
-    "ML/Naïve Bayes.md",
-    "NLP/Text Classification.canvas",
-    "NLP/classification/Maximum Entropy Classifier.md",
-    "NLP/Domain Adaptaion.md",
-    "NLP/Language Modeling.md",
-    "NLP/architectures/Transformer.md",
-    "DL/regularizations/Layer Normalization.md",
-    "NLP/fine-tuning/PEFT.md",
-    "DL/Effective Learning of Large Models.md",
+    "DL/acceleration-and-compression/Quantization.md",
+    "attachments/Pasted image 20240212003544.png",
+    "attachments/Pasted image 20240212003533.png",
+    "attachments/Pasted image 20240212001257.png",
+    "attachments/Pasted image 20240212001058.png",
+    "attachments/Pasted image 20240212000218.png",
+    "DL/acceleration-and-compression/Cascading.md",
+    "NLP/attention/Multi-Head Attention.md",
+    "DL/Accelaration & Compression.canvas",
     "NLP/fine-tuning/Soft Prompt.md",
-    "NLP/fine-tuning/Adapters.md",
+    "DL/acceleration-and-compression/Pruning.md",
+    "DL/L0 Regulatization.md",
+    "attachments/Pasted image 20240210200748.png",
+    "DL/acceleration-and-compression/Distilation.md",
+    "NLP/architectures/Transformer.md",
+    "attachments/Pasted image 20240210014505.png",
+    "attachments/Pasted image 20240210013715.png",
+    "attachments/Pasted image 20240210013700.png",
+    "DL/Effective Learning of Large Models.md",
+    "DL/PEFT.md",
+    "DL/Multi-Label Classification.md",
+    "DL/Linear.md",
+    "DL/Artificial Nearul Network.md",
+    "DL/acceleration-and-compression",
+    "attachments/Pasted image 20240210010736.png",
+    "ML/math/KL Divergence.md",
+    "DL/losses/Cross Entropy.md",
+    "ML/math/Entropy.md",
+    "ML/math",
     "NLP/fine-tuning/LoRA.md",
-    "NLP/architectures/BERT.md",
-    "NLP/architectures/GPT.md",
-    "NLP/word-embeddings/ELMo.md",
-    "NLP/word-embeddings/FastText.md",
-    "NLP/word-embeddings/GLoVe.md",
-    "NLP/word-embeddings/Word2Vec.md",
-    "[Word2Vec.md",
-    "NLP/Seq2Seq.md",
+    "NLP/Text Data Augmentation.md",
+    "NLP/Tokenization.md",
+    "NLP/Text Classification.canvas",
+    "Text Classification.md",
+    "DL/Xavier Initialization.md",
+    "DL/He Initialization.md",
+    "DL/Backpropagation.md",
+    "README.md",
+    "NLP/Untitled.md",
     "CV/generation/Generative Models.canvas",
     "attachments/cv_gen.gif.opdownload",
     "New Text Document.txt",
@@ -243,8 +273,6 @@
     "NLP/fine-tuning/PEFT.canvas",
     "NLP/fine-tuning",
     "Information Technology (IT).canvas",
-    "NLP/attention",
-    "RL",
     "NLP/Retrieval Models and Dialog Systems.canvas"
   ]
 }

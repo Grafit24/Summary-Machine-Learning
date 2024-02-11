@@ -11,4 +11,4 @@ tags:
 	- replace some words by synonymous![[Pasted image 20230914151510.png]]
 - use separate models
 	- for example double translation [[Seq2Seq]] (from src to src with intermediate language)![[Pasted image 20230914151713.png]]
-	- Similar in #CV domain is geometric transformations![[Pasted image 20230914151734.png]]
+	- Similar to CV domain is geometric transformations![[Pasted image 20230914151734.png]]

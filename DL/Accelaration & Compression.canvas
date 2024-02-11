@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"da3ccf1db6b01cc5","type":"file","file":"DL/acceleration-and-compression/Cascading.md","x":-1440,"y":-144,"width":560,"height":584},
+		{"id":"b75523ce6731583a","type":"file","file":"DL/acceleration-and-compression/Pruning.md","x":-720,"y":-144,"width":612,"height":624},
+		{"id":"8b6b303f9ce80fdd","type":"file","file":"DL/acceleration-and-compression/Quantization.md","x":129,"y":-119,"width":671,"height":662},
+		{"id":"473d885f501c5b58","type":"file","file":"DL/acceleration-and-compression/Distilation.md","x":920,"y":-181,"width":739,"height":724},
+		{"id":"f606d27b4edcd5df","type":"text","text":"### Latency\nms@percent","x":-413,"y":-663,"width":258,"height":96,"color":"1"},
+		{"id":"95f137b36025d3ac","type":"text","text":"### Model Size\nmegabytes","x":-30,"y":-677,"width":237,"height":123,"color":"4"},
+		{"id":"4fe336410375636a","type":"text","text":"# Model Accelaration and Compression","x":-320,"y":800,"width":660,"height":100},
+		{"id":"65a604f5c7c869f0","type":"text","text":"### Throughput (server related)\nsamples/second","x":-255,"y":-1200,"width":295,"height":149,"color":"3"}
+	],
+	"edges":[
+		{"id":"b6b399cae09a217f","fromNode":"4fe336410375636a","fromSide":"top","toNode":"b75523ce6731583a","toSide":"bottom"},
+		{"id":"acd3fa36d3fed8bf","fromNode":"4fe336410375636a","fromSide":"top","toNode":"8b6b303f9ce80fdd","toSide":"bottom"},
+		{"id":"0e3c39e339e485b3","fromNode":"4fe336410375636a","fromSide":"top","toNode":"473d885f501c5b58","toSide":"bottom"},
+		{"id":"adbac4635f523318","fromNode":"4fe336410375636a","fromSide":"top","toNode":"da3ccf1db6b01cc5","toSide":"bottom"},
+		{"id":"b29fad826aa73610","fromNode":"da3ccf1db6b01cc5","fromSide":"top","toNode":"f606d27b4edcd5df","toSide":"bottom","toEnd":"none","color":"1"},
+		{"id":"30639853ce2847fc","fromNode":"b75523ce6731583a","fromSide":"top","toNode":"95f137b36025d3ac","toSide":"bottom","toEnd":"none","color":"4"},
+		{"id":"b6debd209d0c3d87","fromNode":"b75523ce6731583a","fromSide":"top","toNode":"f606d27b4edcd5df","toSide":"bottom","toEnd":"none","color":"1"},
+		{"id":"f1724555afbb2a8d","fromNode":"8b6b303f9ce80fdd","fromSide":"top","toNode":"95f137b36025d3ac","toSide":"bottom","toEnd":"none","color":"4"},
+		{"id":"ba312cde07815d0a","fromNode":"473d885f501c5b58","fromSide":"top","toNode":"95f137b36025d3ac","toSide":"bottom","toEnd":"none","color":"4"},
+		{"id":"84ff2be4cfbfc68c","fromNode":"473d885f501c5b58","fromSide":"top","toNode":"f606d27b4edcd5df","toSide":"bottom","toEnd":"none","color":"1"},
+		{"id":"ee7ad82cfb899033","fromNode":"f606d27b4edcd5df","fromSide":"top","toNode":"65a604f5c7c869f0","toSide":"bottom","label":"inference"},
+		{"id":"ee5dc49e0a41d178","fromNode":"95f137b36025d3ac","fromSide":"top","toNode":"65a604f5c7c869f0","toSide":"bottom","label":"coldstart"}
+	]
+}

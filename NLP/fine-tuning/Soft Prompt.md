@@ -1,4 +1,10 @@
-#NLP #LLM #fine-tuning #prompting 
+---
+tags:
+  - NLP
+  - LLM
+  - fine-tuning
+  - prompting
+---
 [Google Research](https://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html) [Paper](https://aclanthology.org/2021.emnlp-main.243/)
 ## What is soft prompt tuning?
 Soft prompt tuning это метод дообучения не всей модели, а только её промпта. Мы к началу входной последовательности эмбеденгов добавляем последовательность векторов фиксированного размера Tunable soft prompt, который мы и будем оптимизировать. При этом веса самой модели заморожены.
